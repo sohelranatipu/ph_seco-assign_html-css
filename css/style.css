@@ -131,6 +131,35 @@ body {
 
 /* About section end */
 
+/* footer start */
+footer {
+    margin-top: 40px;
+}
+
+.footer_section {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_img {
+    width: 485px;
+    margin: 0 auto;
+}
+
+.footer_img img {
+    width: 100%;
+}
+
+.social_icon i {
+    cursor: pointer;
+    background-color: gray;
+    margin: 0 7px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* footer end */
+
 
 
 /* -----------------------Media Query------------------  
@@ -210,6 +239,20 @@ body {
     .right {
         margin-top: 54px;
     }
+
+    /* footer start */
+
+    .footer_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer_img img {
+        width: 60%;
+    }
+
+    /* footer end */
+
 
 }
 
@@ -297,4 +340,17 @@ body {
     .right {
         margin-top: 54px;
     }
+
+    /* footer start */
+
+    .footer_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer_img img {
+        width: 70%;
+    }
+
+    /* footer end */
 }
